@@ -1,0 +1,94 @@
+{
+  "topics": [
+    {"name": "Cryptography", "docs": ["applied-crypto", "stallings"], "questions": [
+      "What is the difference between symmetric and public-key cryptography?",
+      "How does the Diffie-Hellman key exchange work?",
+      "What is a one-way hash function and what is it used for?",
+      "Why is the DES key length considered a weakness?",
+      "How do digital signatures work?",
+      "What is a one-time pad and why is it perfectly secure?"
+    ]},
+    {"name": "Web application security", "docs": ["web-hack"], "questions": [
+      "What is SQL injection and how do attackers exploit it?",
+      "What is cross-site scripting (XSS) and what types exist?",
+      "How can session tokens be attacked?",
+      "How do you defend against cross-site request forgery?",
+      "What are common weaknesses in authentication mechanisms?",
+      "What is the methodology for attacking a web application?"
+    ]},
+    {"name": "Mobile application security", "docs": ["mobile-hack"], "questions": [
+      "What are the main security risks of iOS applications?",
+      "How can Android content providers and intents be attacked?",
+      "Why do testers jailbreak or root a mobile device?",
+      "How is insecure data storage found in mobile apps?",
+      "How can mobile app network traffic be intercepted and attacked?"
+    ]},
+    {"name": "Embedded and hardware security", "docs": ["embedded-sec", "embedded-design"], "questions": [
+      "What are tamper resistance, tamper evidence, tamper detection and tamper response?",
+      "What is the difference between simple and differential power analysis?",
+      "Why does security through obscurity not work for embedded devices?",
+      "What are Class I, Class II and Class III attackers in embedded security?",
+      "How should JTAG and other external interfaces be protected?",
+      "What are the main components of an embedded system?"
+    ]},
+    {"name": "Secure coding in C and C++", "docs": ["secure-coding"], "questions": [
+      "What is a buffer overflow and how can it be prevented?",
+      "What are format string vulnerabilities?",
+      "What integer overflow problems occur in C and C++?",
+      "Why are functions like gets and strcpy dangerous?",
+      "What is a stack smashing attack?"
+    ]},
+    {"name": "Computer security fundamentals", "docs": ["stallings", "oreilly"], "questions": [
+      "What are confidentiality, integrity and availability?",
+      "What are discretionary, mandatory and role-based access control?",
+      "What types of malware exist and how do they spread?",
+      "What types of firewalls are there and how do they differ?",
+      "How do intrusion detection systems work?"
+    ]},
+    {"name": "Cloud security", "docs": ["cloud-risk", "cloud-security"], "questions": [
+      "What are the main security risks of cloud computing?",
+      "What is the difference between IaaS, PaaS and SaaS?",
+      "What are the legal and compliance risks of using cloud services?",
+      "What is vendor lock-in in cloud computing?",
+      "How should a customer assess the security of a cloud provider?"
+    ]},
+    {"name": "Digital forensics and incident response", "docs": ["forensics"], "questions": [
+      "What are the phases of incident response?",
+      "What is the order of volatility when collecting evidence?",
+      "What is chain of custody and why does it matter?",
+      "Why is a forensic image made and why use a write blocker?"
+    ]},
+    {"name": "Software testing and quality assurance", "docs": ["testing"], "questions": [
+      "What is the difference between black box and white box testing?",
+      "What are the levels of software testing?",
+      "What is regression testing?",
+      "What is the difference between quality assurance and quality control?",
+      "What is boundary value analysis?"
+    ]},
+    {"name": "Data science and big data", "docs": ["bigdata", "ds-paper"], "questions": [
+      "What is the data analytics lifecycle?",
+      "What are Hadoop and MapReduce?",
+      "What are the characteristics (Vs) of big data?",
+      "What is the difference between supervised and unsupervised learning?",
+      "What does the data science book say about ethics, privacy and algorithmic fairness?"
+    ]},
+    {"name": "Blockchain", "docs": ["blockchain"], "questions": [
+      "How does a blockchain work?",
+      "What is proof of work and how does mining work?",
+      "What are smart contracts?",
+      "What is the difference between public and private blockchains?"
+    ]},
+    {"name": "AI, law and ethics", "docs": ["ai-law"], "questions": [
+      "What are the main legal challenges of artificial intelligence?",
+      "How does AI affect privacy and data protection?",
+      "Who is liable when an AI system causes harm?",
+      "What are the concerns about algorithmic bias and discrimination?"
+    ]},
+    {"name": "Usability", "docs": ["usability"], "questions": [
+      "What is usability and how is it measured?",
+      "What are the usability heuristics?",
+      "What is heuristic evaluation?",
+      "What is the thinking aloud method in usability testing?"
+    ]}
+  ]
+}
